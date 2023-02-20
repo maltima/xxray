@@ -1,4 +1,4 @@
-# 3x-ui
+# x-ui
 > **Disclaimer: This project is only for personal learning and communication, please do not use it for illegal purposes, please do not use it in a production environment**
 
 xray panel supporting multi-protocol, **Multi-lang (English,Farsi,Chinese)**
@@ -6,8 +6,9 @@ xray panel supporting multi-protocol, **Multi-lang (English,Farsi,Chinese)**
 # Install & Upgrade
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://github.com/maltima/xcore/blob/main/install.sh)
 ```
+
 
 # SSL
 ```
@@ -20,15 +21,15 @@ certbot renew --dry-run
 
 # Default settings
 
-- Port: 2053
+- Port: 54321
 - username and password will be generated randomly you can see them after you install it (x-ui "7")
 - database path: /etc/x-ui/x-ui.db
 
 before you set ssl on settings
-- http:// ip or domain:2053/xui
+- http:// ip or domain:54321/xui
 
 After you set ssl on settings 
-- https://yourdomain:2053/xui
+- https://yourdomain:54321/xui
 
 **for enable traffic for users you should do :**
 
@@ -47,20 +48,13 @@ After you set ssl on settings
       "statsInboundUplink": true
     }
   },
-  "routing": {
+
 ```
 
 # suggestion system
 - Ubuntu 20.04+
-- Debian 10
-- CentOS 8
 
-# pic
 
-![1](https://raw.githubusercontent.com/MHSanaei/3x-ui/main/media/1.png)
-![2](https://raw.githubusercontent.com/MHSanaei/3x-ui/main/media/2.png)
-![3](https://raw.githubusercontent.com/MHSanaei/3x-ui/main/media/3.png)
-![4](https://raw.githubusercontent.com/MHSanaei/3x-ui/main/media/4.png)
 
 # a special thanks to
 - [vaxilu](https://github.com/vaxilu/)
